@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99AC15D520594C9E00BB57CE /* Module1 in Resources */ = {isa = PBXBuildFile; fileRef = 99AC15D420594C9E00BB57CE /* Module1 */; };
 		99FFC0CF2058A50200A5B210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FFC0CE2058A50200A5B210 /* AppDelegate.m */; };
 		99FFC0D22058A50200A5B210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FFC0D12058A50200A5B210 /* ViewController.m */; };
 		99FFC0D52058A50200A5B210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FFC0D32058A50200A5B210 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99AC15D420594C9E00BB57CE /* Module1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Module1; path = ../../Module1; sourceTree = "<group>"; };
 		99FFC0CA2058A50200A5B210 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FFC0CD2058A50200A5B210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99FFC0CE2058A50200A5B210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,11 +60,11 @@
 		99FFC0CC2058A50200A5B210 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				99AC15D420594C9E00BB57CE /* Module1 */,
 				99FFC0CD2058A50200A5B210 /* AppDelegate.h */,
 				99FFC0CE2058A50200A5B210 /* AppDelegate.m */,
 				99FFC0D02058A50200A5B210 /* ViewController.h */,
 				99FFC0D12058A50200A5B210 /* ViewController.m */,
-				99FFC0E32058F5F200A5B210 /* module1 */,
 				99FFC0D32058A50200A5B210 /* Main.storyboard */,
 				99FFC0D62058A50200A5B210 /* Assets.xcassets */,
 				99FFC0D82058A50300A5B210 /* LaunchScreen.storyboard */,
@@ -70,13 +72,6 @@
 				99FFC0DC2058A50300A5B210 /* main.m */,
 			);
 			path = test;
-			sourceTree = "<group>";
-		};
-		99FFC0E32058F5F200A5B210 /* module1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = module1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +134,7 @@
 			files = (
 				99FFC0DA2058A50300A5B210 /* LaunchScreen.storyboard in Resources */,
 				99FFC0D72058A50200A5B210 /* Assets.xcassets in Resources */,
+				99AC15D520594C9E00BB57CE /* Module1 in Resources */,
 				99FFC0D52058A50200A5B210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
